@@ -1,5 +1,5 @@
 import unittest
-from src.module1 import script1
+import script1  # Importing script1 directly since it will be in the same directory
 
 class TestModule1(unittest.TestCase):
 
